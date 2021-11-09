@@ -1,0 +1,98 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+/* TRABAJANDO CON EL HEADER*/
+
+header{
+	border-bottom: 5px solid #1293d4;
+	color: #fff;
+	
+}
+
+.contenedor{
+	background-color: #262a2b;;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+.marca{
+	margin-left: 100px;
+	font-family:'Quicksand', sans-serif;
+	cursor:none;
+}
+.spam{
+	color:#1293d4 ;
+	font-weight:900px;
+}
+
+ul{
+	display: flex;
+	margin-right: 80px;
+}
+.contenedor li{
+	list-style: none;
+}
+
+.contenedor a{
+	text-decoration: none;
+	color:#fff;
+	padding: 10px;
+	transition: 0.4s;
+	
+}
+.contenedor a:hover{
+	color:#1293d4;
+}
+/*Banner*/
+.banner{
+	background:url(/images/curso1.jpg);
+	width: 100%;
+	height: 110vh;
+	background-size: cover;
+	background-position: center center;
+}
+
+.banner{
+display: flex;
+justify-content: center;
+}
+/*contenido Banner*/
+
+.contenido-banner{
+	margin: 300px 0;
+}
+.parrafo-uno{
+	margin-top: -20px;
+	text-align: center;
+	font-size: 28px;
+	font-family:'Quicksand', sans-serif;
+	font-weight:900;
+	margin-bottom: 5px;
+}
+
+.parrafo-dos{
+	font-family:'Quicksand', sans-serif;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+/*barra suscribirte*/
+.barra-suscribete{
+	background-color: #262a2b;
+	color: #fff;
+	width: 100%;
+	height:50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family:'Quicksand', sans-serif; ;
+}
+
+.contenedor-barra-suscribete{
+
+}
+.emails{
+}
